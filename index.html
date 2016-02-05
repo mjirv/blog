@@ -1,0 +1,128 @@
+
+<!-- saved from url=(0027)http://localhost:8000/blog/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Michael J. Irvine</title>
+	<link rel="stylesheet" type="text/css" href="./index_files/style.css">
+<style type="text/css"></style></head>
+
+<body><div id="StayFocusd-infobar" style="display:none;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">hide once</a>
+    </span>
+</div>
+	<header><h1 class="header">Michael J. Irvine</h1></header>
+
+	
+	<ul class="menu">
+	<li class="menuItem"><a href="#">Home</a></li>
+	
+		<li class="menuItem"><a href="/blog/about.html">About</a></li>
+	
+	</ul>
+	<hr>
+
+
+	
+		<div>
+			
+			
+				<h1><a class="postTitle" href="#">Stock Market Downturns: 2008 and Today</a></h1>
+<em>Feb. 5, 2016, 4:23 p.m.</em>
+<p></p><p><img src="./index_files/B2Lj46T.png" alt="" width="999" height="608"></p><p></p>
+<br>
+<hr>
+<br>
+			
+				<h1><a class="postTitle" href="#">A Post About the Eurozone</a></h1>
+<em>July 29, 2015, 5:02 p.m.</em>
+<p></p><p>A recent blog post by Paul Krugman contained a fun little graph comparing the GDP per capita of Sweden and Finland since the late 1980s.&nbsp;</p>
+<p>Sweden is not a member of the Eurozone (and so does not use the Euro but rather its own currency, the krona). Meanwhile, the Finns have been using the Euro since the very beginning.</p>
+<p>Which one would you rather have lived in the past few years? Since, say, 2008 or so.&nbsp;</p>
+<p>If you said Sweden, you’re probably not alone.</p>
+<p><img style="float: right;" src="./index_files/072215krugman2-blog4801.png" alt="" width="480" height="253"></p>
+<p>Unsurprisingly, Sweden has outperformed its neighbor to the east economically recently after very similar economic results from 2000 until the financial crisis hit.</p>
+<p>Krugman’s explanation, which probably contains a lot of truth, is that Sweden, as a non-Euro country, was free to conduct independent monetary policy in response to the Global Financial Crisis. Finland, on the other hand, was forced to go along with whatever the central bankers at the ECB wanted, which was not necessarily right for Finnish economic conditions.</p>
+<p>After reading Krugman’s post, I found myself wondering if the data showed the same pattern for the rest of the Eurozone. I figured we would see the same trend when comparing European economies that are not on the Euro with Eurozone members.</p>
+<p><img src="./index_files/eurozone-gdp.png" alt="" width="634" height="381"></p>
+<p>Not surprisingly, that’s exactly what we see. What’s shocking is the magnitude of the disparity. Eurozone members lost almost twice as much in GDP between 2010 and 2014 as their neighbors that chose not to join the Euro. 2012 was a particularly bad year for the Eurozone (the Greek debt crisis started in late 2009).</p>
+<p>I ran a simple regression of the change in a country’s GDP between 2010 and 2014 on its being located in Europe and its being a member of the Eurozone. Although being a European country doesn’t seem to have affected GDP growth in that time period, being in the Eurozone certainly did–negatively. We would expect a Eurozone economy to shrink by $9,500 in that time period compared to a non-EZ, non-European nation, a result which is statistically significant.</p>
+<p><img src="./index_files/eurozone-regression-table.png" alt="" width="451" height="138"></p>
+<p>Be warned that I did not control for confounding variables. Even so, I am confident that the regression results are getting at something real. Initially, I thought it was possible that Eurozone members’ economic ties to the United States and the global banking sector helped explain the results, but Canada, Britain, and Switzerland meet those criteria better than any EZ nation. So I think we really are seeing the destructive impact of giving up independent monetary policy.</p>
+<p>That’s not to say the Euro is a bad idea. As a political project, it makes sense. In economic terms, it is workable if labor markets become more integrated across the continent. Currently, though, I would rather not have been on the Euro the last few years–unless, of course, I lived in Germany.</p><p></p>
+<br>
+<hr>
+<br>
+			
+				<h1><a class="postTitle" href="#">Mapping Presidential Candidates' Fundraising</a></h1>
+<em>July 16, 2015, 2:14 p.m.</em>
+<p></p><p>Campaigns reported their first quarter fundraising numbers to the FEC today, and those numbers are now available online for us to play with. I thought I would map out where the candidates are raising money from and see how they compare.</p>
+<h2><strong>Democrats </strong></h2>
+<p><img src="./index_files/democrats.png" alt="Democratic fundraising by zip code." width="626" height="333"></p>
+<p>Unsurprisingly, Hillary and Bernie raise money largely from the same locations, only Hillary raises much more of it. But what about that huge blue dot somewhere in New England? That’s Somerville, Massachussetts, where Bernie has apparently raised $2,672,467.65. No, he hasn’t actually raised that much. Several Democratic fundraising technology companies, including NGP VAN and ActBlue, are located in Somerville (disclosure: I am interning as a software engineer for NGP VAN in Washington, DC this summer). That sum appears to be everything he has raised through ActBlue, which acts as a bundler for reporting purposes rather than reporting individual donations.</p>
+<h2><strong>Republicans</strong></h2>
+<p><img src="./index_files/republicans.png" alt="Republican fundraising by zip code." width="626" height="333"></p>
+<p>Meanwhile on the Republican side, it almost looks like Jeb Bush and <span class="highlight-16235">Ted Cruz</span> are raising money from the exact same people. That’s why the entire map is pretty much an orange-red blob. Mike Huckabee is strong in Arkansas and the South, and pretty much no where else. <span class="highlight-16235">Rand Paul</span> actually looks weaker, with a base in Kentucky but nothing exceptional elsewhere. Rubio is obviously strongest near Miami and doing decently across the nation, but I was struck by his ability to raise funds in coastal areas including all along the Gulf Coast and the Carolinas, and in California. Perhaps that says something about who he appeals to, but I’m not sure exactly what that something is yet.</p><p></p>
+<br>
+<hr>
+<br>
+			
+				<h1><a class="postTitle" href="#">Police Shootings and Minorities</a></h1>
+<em>July 12, 2015, 4:38 p.m.</em>
+<p></p><div class="mceTemp"><dl id="attachment_131" class="wp-caption alignright"><dt class="wp-caption-dt"><a href="https://mjirvine.files.wordpress.com/2015/07/armed1.png"><img class="wp-image-131 size-medium" style="float: right;" src="./index_files/armed1.png" alt="armed" width="300" height="281"></a>Perhaps the story of 2015 so far has been the continued tension between the police and minority communities in places like Baltimore and McKinney, Texas. To help make sense of police shootings, the&nbsp;<em>Washington Post</em>&nbsp;has compiled an&nbsp;<a href="https://github.com/washingtonpost/data-police-shootings" target="_blank">important, unfortunate dataset</a>&nbsp;of every person shot dead by police in the United States in 2015. They have done some great visualizations of the data on their website, along with excellent reporting by Wesley Lowery and others on the subject, but&nbsp;their analysis&nbsp;left me with some questions.</dt></dl></div>
+<p>Generally, I wanted to see whether and how racial disparities are reflected in the data. Members of minority racial groups know through their lived experiences that the relationship they have with the authorities are not the same that white people do. Psychological research confirms that Americans are apt to&nbsp;<a href="http://www.motherjones.com/politics/2014/11/science-of-racism-prejudice" target="_blank">perceive&nbsp;young, Black men as more aggressive and dangerous</a>&nbsp;than their white counterparts.</p>
+<p>Unsurprisingly, the majority of police shootings occur when subjects are armed, especially when armed with a gun.</p>
+<p>But I was curious about the&nbsp;<em>unarmed</em>&nbsp;shootings. My hypothesis was that if police officers tend to see Blacks and Hispanics as threatening and aggressive while giving whites the benefit of the doubt, members of those minority groups would be much more likely to shot by police while unarmed.</p>
+<p>A cursory look at the data supports this hypothesis. Blacks and Hispanics who were shot by the police&nbsp;<strong>are several times more likely to have been unarmed</strong>&nbsp;when they were shot.&nbsp;Native Americans and members of other races are also more likely to have been unarmed when shot.</p>
+<div class="mceTemp"><dl id="attachment_127" class="wp-caption alignnone"><dt class="wp-caption-dt"><a href="https://mjirvine.files.wordpress.com/2015/07/race-and-unarmed.png"><img class="wp-image-127 size-large" src="./index_files/race-and-unarmed.png" alt="race and unarmed" width="660" height="156"></a></dt><dt class="wp-caption-dt"></dt><dt class="wp-caption-dt">What&nbsp;if we consider the 500 people shot by police so far in 2015 as a representative sample of all people shot by police&nbsp;over the last several and next several years? In other words, in the coming months and perhaps years, if we know the race of a police shooting victim, what can we say about the chances that they were unarmed?</dt></dl></div>
+<p>To determine this, I performed a binomial logistic regression on being unarmed when shot by police with&nbsp;race as my independent variable. I controlled for the other factors included in the&nbsp;<em>Washington Post's&nbsp;</em>dataset (location, age, gender, whether one had visible signs of mental illness). As shown in the table below, I found that&nbsp;<strong>being Black, Hispanic, or "other" significantly increases the chances that a police shooting victim was&nbsp;unarmed</strong>&nbsp;when shot (compared to a white victim). Specifically, we expect a black person's log-odds of being unarmed when shot to be 0.79 higher than a white person's, all else equal, and we expect a Hispanic person's to be 1.20 higher.</p>
+<p><a href="./index_files/table-1.png"><img class="alignnone size-full wp-image-129" src="./index_files/table-1.png" alt="table 1" width="608" height="506"></a></p>
+<p>Unfortunately, the data support the conclusion I was afraid I would have to draw, that racial bias in policing is real and deadly. While there may be other explanations for this trend, none seem to explain the phenomenon as simply and visibly. I can only hope that the increased attention paid in this nation to&nbsp;the issue of police violence toward minorities is a sign of progress to come rather than a momentary burst of awareness, soon to be forgotten.</p>
+<p>My SPSS data file, output, and Tableau visualization project are available on<a href="https://github.com/mjirv/data-police-shootings" target="_blank">&nbsp;Github</a>. Feel free to comment or&nbsp;<a href="mailto:michael.j.irvine@gmail.com" target="_blank">email me</a>&nbsp;with questions, and share with attribution and a link.</p><p></p>
+<br>
+<hr>
+<br>
+			
+				<h1><a class="postTitle" href="#">2016 Presidential Staffers: A Look at the Data</a></h1>
+<em>July 9, 2015, 4:42 p.m.</em>
+<p></p><h3>What’s the big idea?</h3>
+<p>Yesterday,&nbsp;<em>National Journal</em>&nbsp;released its&nbsp;<a href="http://staffertracker.nationaljournal.com/app/#/" target="_blank">TwentySixteen Staffer Tracker</a>, a tool that allows us to see a list of each of the 2016 presidential candidate’s staffers (albeit an incomplete one). Although it shows the most popular former workplaces for each campaign’s staff, I felt like some more detailed data analysis and visualization was in order. Specifically,&nbsp;<strong>I wanted to see how the campaigns compare in terms of gender breakdown and staffer type</strong>&nbsp;(field, comms, etc.).</p>
+<p>I aggregated the data for the two major Democratic campaigns–Hillary Clinton and&nbsp;<span class="highlight-67132">Bernie Sanders</span>–and six top Republican campaigns–Jeb Bush,&nbsp;<span class="highlight-16235">Marco Rubio</span>,&nbsp;<span class="highlight-16235">Rand Paul</span>,&nbsp;<span class="highlight-16235">Ted Cruz</span>, Scott Walker, and of course Donald Trump. Then, I coded each staffer with a gender, which I assigned based on their names (so there may be some minor mistakes, probably no more than&nbsp;one person per candidate on average). Next, I looked at each staffer’s title to see which part of the campaign they fell into.</p>
+<p>Note that some staffers do not fit squarely into one box. For example, it was difficult to tell whether many state-level staff would best be coded as “field” or “adviser/strategy.” For the most part, I went with “field” when coding people like state directors, since it was a good way of getting a look at the candidate’s presence on the ground. Meanwhile, I took “adviser/strategy” to mean primarily a high-level, national campaign adviser. Your mileage may vary, and I welcome suggestions and comments on this page or at&nbsp;<a href="mailto:michael.j.irvine@gmail.com" target="_blank">michael.j.irvine@gmail.com</a>. Here’s what I found:</p>
+<h3>Staff Gender Breakdowns</h3>
+<h4>Democrats</h4>
+<p><a href="https://mjirvine.files.wordpress.com/2015/07/hillary-gender.png"><img class="alignnone wp-image-97 size-medium" src="./index_files/hillary-gender.png" alt="Hillary Gender" width="300" height="203"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/bernie-gender1.png"><img class="alignnone wp-image-98 " src="./index_files/bernie-gender1.png" alt="Bernie Gender" width="311" height="202"></a></p>
+<p>Hillary Clinton’s campaign clearly has the edge over&nbsp;<span class="highlight-67132">Bernie Sanders</span>&nbsp;in terms of gender equality, although part of that is because Hillary has&nbsp;<em>many times</em>&nbsp;more staffers working for her than Bernie does. Nevertheless, Bernie is&nbsp;<a href="http://www.politico.com/story/2015/06/poll-bernie-sanders-new-hampshire-119062.html" target="_blank">lagging Hillary in the female vote</a>, and the gender gap in his campaign may be part of the problem (or perhaps a result of it).</p>
+<h4>Republicans</h4>
+<p><a href="https://mjirvine.files.wordpress.com/2015/07/jeb-gender.png"><img class="alignnone size-medium wp-image-101" src="./index_files/jeb-gender.png" alt="Jeb Gender" width="300" height="208"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/marco-rubio-gender.png"><img class="alignnone size-medium wp-image-102" src="./index_files/marco-rubio-gender.png" alt="Marco Rubio Gender" width="300" height="205"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/paul-gender1.png"><img class="alignnone size-medium wp-image-108" src="./index_files/paul-gender1.png" alt="Paul Gender" width="300" height="206"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/ted-cruz-gender.png"><img class="alignnone size-medium wp-image-104" src="./index_files/ted-cruz-gender.png" alt="Ted Cruz Gender" width="300" height="205"></a>&nbsp;&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/walker-gender.png"><img class="alignnone size-medium wp-image-106" src="./index_files/walker-gender.png" alt="Walker Gender" width="300" height="205">&nbsp;<img class="alignnone size-medium wp-image-105" src="./index_files/trump-gender.png" alt="Trump Gender" width="300" height="206"></a></p>
+<p>The Republican field is about what you would expect. Staffers are predominantly male, with&nbsp;<span class="highlight-16235">Ted Cruz</span>&nbsp;and&nbsp;<span class="highlight-16235">Marco Rubio</span>&nbsp;tied for the “most women” award with 22.2% each. Not great numbers, and much lower than Hillary’s 42.2%. Republican candidates might benefit from hiring smart female staffers overlooked by the other campaigns (or perhaps there simply are none willing to work on Republican campaigns!).</p>
+<p>Not surprisingly, Donald Trump has exactly zero women on his campaign.&nbsp;<span class="highlight-16235">Rand Paul</span>&nbsp;also clocks in at nil. Libertarianism notoriously has its base among white men, and Paul’s campaign seems to be no exception to this rule, which is unfortunate if he hopes to appeal to a larger audience in the&nbsp;general election or even in the primary.</p>
+<h3>Staffer&nbsp;Type</h3>
+<h4>Democrats</h4>
+<p><a href="https://mjirvine.files.wordpress.com/2015/07/division-bernie.png"><img class="alignnone size-medium wp-image-109" src="./index_files/division-bernie.png" alt="Division Bernie" width="300" height="206"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-hillary.png"><img class="alignnone size-medium wp-image-110" src="./index_files/division-hillary.png" alt="Division Hillary" width="300" height="204"></a></p>
+<p>The data confirm what reporters and Democratic campaign types have known for a while–Hillary’s campaign is big on communications, while&nbsp;<span class="highlight-67132">Bernie Sanders</span>&nbsp;is focusing on running field operations in a few key early states like Iowa and New Hampshire. The advantage here goes to Hillary. For all the credit Bernie’s campaign deserves for its surge in those early states and<a href="http://www.washingtonpost.com/politics/thousands-expected-to-gather-in-madison-for-latest-sanders-rally/2015/07/01/c116019e-2018-11e5-aeb9-a411a84c9d55_story.html" target="_blank">10,000 person rallies</a>, it will be hard to get the message out to a wider audience with only one digital person, one comms staffer, and one person&nbsp;making&nbsp;ads.</p>
+<p>Bernie will almost certainly have to hire more comms staff soon–in this day and age, it’s just unacceptable to send out an email about Citizens United but nothing about&nbsp;<em>Obergefell v. Hodges&nbsp;</em>on the day of the Supreme Court’s gay marriage decision. Similarly, his campaign<a href="https://twitter.com/BernieSanders/status/617857013742112768" target="_blank">tweeted about Medicare</a>&nbsp;half an hour after the U.S. Women’s Soccer Team won the World Cup, and never said anything about the American victory.</p>
+<p>Meanwhile, Hillary’s campaign has been incredibly effective on social media, especially with respect to gay marriage.&nbsp;By all measures, Hillary is running an&nbsp;<strong>excellent</strong>&nbsp;social media campaign&nbsp;(see&nbsp;<a href="http://jezebel.com/hillary-clinton-comments-on-humans-of-new-york-post-abo-1715743367?utm_campaign=socialfow_jezebel_twitter&amp;utm_source=jezebel_twitter&amp;utm_medium=socialflow" target="_blank">her comment</a>&nbsp;on the Humans of New York Facebook page). Without a serious investment in social media, the&nbsp;<span class="highlight-67132">Bernie Sanders</span>&nbsp;campaign will soon be left behind.</p>
+<h4>Republicans</h4>
+<p><a href="https://mjirvine.files.wordpress.com/2015/07/division-r-cruz.png"><img class="alignnone size-medium wp-image-114" src="./index_files/division-r-cruz.png" alt="Division R Cruz" width="300" height="206"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-r-jeb.png"><img class="alignnone size-medium wp-image-115" src="./index_files/division-r-jeb.png" alt="Division R Jeb" width="300" height="205"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-r-paul.png"><img class="alignnone size-medium wp-image-116" src="./index_files/division-r-paul.png" alt="Division R Paul" width="300" height="204"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-r-rubio.png"><img class="alignnone size-medium wp-image-117" src="./index_files/division-r-rubio.png" alt="Division R Rubio" width="300" height="205"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-r-trump.png"><img class="alignnone size-medium wp-image-118" src="./index_files/division-r-trump.png" alt="Division R Trump" width="300" height="206"></a>&nbsp;<a href="https://mjirvine.files.wordpress.com/2015/07/division-r-walker.png"><img class="alignnone size-medium wp-image-119" src="./index_files/division-r-walker.png" alt="Division R Walker" width="300" height="204"></a></p>
+<p>A few things jump out when looking at the Republican field’s breakdown of advisers. Jeb Bush’s campaign,&nbsp;<span class="highlight-16235">Rand Paul</span>’s, and Scott Walker’s all look similar, with an emphasis on high-level advisers and strategists. This makes sense for Jeb, given his family network, but it is somewhat more surprising for Paul and Walker, who are more insurgent-type candidates.</p>
+<p>Notably,&nbsp;<span class="highlight-16235">Rand Paul</span>&nbsp;and Scott Walker only have one communications person apiece, and a similarly lackluster digital presence. This would explain why I have seen next to nothing about their campaigns on social media, although Walker has been successful at getting his name into the press.</p>
+<p>Rubio and Cruz’s emphasis on state-level field operatives is interesting, although I can’t say it seems to be paying dividends yet. Perhaps more intriguing is Jeb Bush’s five policy advisers, more than any other candidate in the race. This could either be an attempt to bone up on his policy chops since he’s been out of office for some time or a reflection of his actual love for policy (which certainly seems to be what his campaign wants us to think). Perhaps it reflects a confidence that he will win and be President in a couple of years. Time will tell whether this is a smart move in a crowded Republican primary.</p>
+<p>Lastly, a word about Donald Trump is in order. I was not expecting him to have as strong a state-based presence as he does. Although his campaign is clearly less well-established than the other candidates, this may signal his seriousness about competing on the ground and not just in the media.</p>
+<h4>Conclusions</h4>
+<p>There are a few easy conclusions to draw from this data. First,&nbsp;<span class="highlight-67132">Bernie Sanders</span>&nbsp;needs to invest in communications and digital staff to remain competitive. Every moment wasted is a lost opportunity to build grassroots support among potentially pivotal groups. This is especially true with respect to young people, who could be a great base of support for Bernie’s campaign, but who largely (anecdotally speaking) view Hillary as more in touch with their lives, especially on social issues.</p>
+<p>On the Republican side, Donald Trump is potentially more serious than many people think. In general, no candidate seems better positioned than Jeb Bush, whose large warchest has allowed him to hire staff for&nbsp;essentially every facet&nbsp;of the campaign.</p><p></p>
+<br>
+<hr>
+<br>
+			
+
+			<p style="text-align: center;"></p>
+		</div>
+
+	
+
+<span id="buffer-extension-hover-button" style="display: block; position: absolute; z-index: 8675309; width: 100px; height: 25px; opacity: 0.9; cursor: pointer; top: 652.031px; left: 1011.5px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@1x.png&quot;); background-size: 100px 25px;"></span></body></html>
